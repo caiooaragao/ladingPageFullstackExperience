@@ -1,0 +1,143 @@
+/*Google Fonts: Poppins
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Estrutura do site
+------------------------------------*/
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    color: rgb(243, 80, 107);
+}
+
+body{
+    background: #FCF9BE;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Continue a partir daqui
+------------------------------------*/
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo a img{
+    border-radius: 50%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fcb462;
+}
+nav{
+    display: flex;
+    gap: 10x;
+}
+nav a{
+    padding: 10px;
+    color: #FCF9BE;
+}
+nav a:hover{
+    background-color: #f3ec6a;
+    border-radius: 12px;
+}
+
+/*  MAIN    */
+
+.bolo-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    padding: 20px 70px 0px 70px;
+    justify-content: center;
+   
+}
+
+.main-item{
+    border-radius: 12px;
+    width: 480px;
+    
+}
+.main-item img{
+    border-radius: 10px;
+    
+}
+.item-child{
+    padding: 0px 20px 0px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    
+}
+.main-item-button{
+    padding: 20px;
+    background-color: #fcb462;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.main-item-button:hover{
+    background-color: #fdcd95;
+}
+
+/* SOBRE MIM */
+.sobre-mim-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    width: 700px;
+    margin: 0 auto;
+}
+.sobre-mim-container h2{
+    font-size: 42px;
+
+}
+.sobre-mim-div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 40px;
+}
+.mariafoto{
+    width: 300px;
+    height: 300px;
+}
+
+/*   mapa   */
+
+.mapa-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    padding: 0px 100px 0px 100px;
+    
+    
+}
+.mapa-container img{
+    width: 400px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #fcb462;
+    width: 100%;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    gap: 10px;
+}
+input{
+    height: 40px;
+}
